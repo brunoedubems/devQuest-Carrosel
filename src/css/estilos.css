@@ -64,29 +64,42 @@
 
 /*CONTEUDOS*/
 
+
+
 .conteudo{
     display: block;
     background-color: #ffff;
     margin-left: 180px;
-    padding: 65px 60px;
-    width: 620px;
+    padding: 20px 60px;
+    width: 650px;
+    min-height: 560px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .conteudo .titulo{
-    margin-bottom: 80px;
-    font-size: 5rem;
+    margin-bottom: 10px;
+    font-size: 6rem;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
 
 .conteudo .texto{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .conteudo .botao{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
+}
+
+.logos{
+    display: flex;
+    margin: 0 auto;
+    height: 215px;
+    margin-bottom: 10px;
 }
 
 
